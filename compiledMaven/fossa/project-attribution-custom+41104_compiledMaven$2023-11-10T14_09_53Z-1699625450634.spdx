@@ -1,0 +1,360 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: 41104/compiledMaven-2023-11-10T14:09:53Z
+DocumentNamespace: https://s3.us-east-1.amazonaws.com/blob.fossa.io/FOSSA_BOMS/custom%2B41104%2FcompiledMaven%242023-11-10T14%3A09%3A53Z
+Creator: Organization: vee
+Creator: Tool: FOSSA v0.12.0
+Created: 2023-11-10T02:10:52Z
+LicenseListVersion: 3.18
+DocumentDescribes: SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+DocumentDescribes: SPDXRef-mvn-commons-codec-commons-codec-1.15
+DocumentDescribes: SPDXRef-mvn-commons-io-commons-io-2.7
+DocumentDescribes: SPDXRef-mvn-commons-logging-commons-logging-1.2
+DocumentDescribes: SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13
+DocumentDescribes: SPDXRef-mvn-org.apache.httpcomponents-httpcore-4.4.13
+DocumentDescribes: SPDXRef-mvn-org.apache.logging.log4j-log4j-api-2.14.0
+DocumentDescribes: SPDXRef-mvn-org.apache.logging.log4j-log4j-core-2.14.0
+DocumentDescribes: SPDXRef-mvn-com.fasterxml.jackson.core-jackson-annotations-2.11.3
+DocumentDescribes: SPDXRef-mvn-com.fasterxml.jackson.core-jackson-core-2.11.3
+DocumentDescribes: SPDXRef-mvn-com.fasterxml.jackson.core-jackson-databind-2.11.3
+DocumentDescribes: SPDXRef-mvn-com.fasterxml.jackson.datatype-jackson-datatype-jsr310-2.11.3
+DocumentDescribes: SPDXRef-mvn-javax.activation-javax.activation-api-1.2.0
+DocumentDescribes: SPDXRef-mvn-javax.xml.bind-jaxb-api-2.3.1
+DocumentDescribes: SPDXRef-mvn-io.jsonwebtoken-jjwt-api-0.11.2
+DocumentDescribes: SPDXRef-mvn-io.jsonwebtoken-jjwt-jackson-0.11.2
+DocumentDescribes: SPDXRef-mvn-io.jsonwebtoken-jjwt-impl-0.11.2
+
+#### Packages
+
+PackageName: compiledMaven
+SPDXID: SPDXRef-custom-41104-compiledMaven-2023-11-10T14-09-53Z
+PackageVersion: 2023-11-10T14:09:53Z
+FilesAnalyzed: true
+PackageOriginator: Organization: Custom (provided build)
+PackageLicenseDeclared: NONE
+PackageCopyrightText: NONE
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageChecksum: MD5: 67b14a6cb7684753d675f3559c4bc4c2
+PackageChecksum: SHA1: c377ed1bc5280ae8cb820f261e05b20b82a77ebd
+PackageChecksum: SHA256: 83e240b7ec24d39dbda27ba8769684d1f20fa30bebcfdba767ce2dc937719c75
+
+
+PackageName: twilio
+SPDXID: SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+PackageVersion: 8.6.1
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: MIT
+PackageCopyrightText: amp;#169; 2019 Twilio, Inc. All Rights Reserved.&lt;/i&gt;</bottom>
+	inceptionYear}-{currentYear} {organizationName}. All Rights Reserved.<br
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageDownloadLocation: https://repo1.maven.org/maven2/com/twilio/sdk/twilio/8.6.1/twilio-8.6.1-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.twilio.sdk/twilio@8.6.1
+PackageChecksum: MD5: 231b774a106503bc4cf916cbd484eac3
+PackageChecksum: SHA1: 2d6f42c74d0f902497bda31ff82835914ccb1e09
+PackageChecksum: SHA256: 52f920ee1dc5b9e156a3a064e59cfb948c123bf4b7ee0b126851309215605d62
+
+
+PackageName: Apache Commons Codec
+SPDXID: SPDXRef-mvn-commons-codec-commons-codec-1.15
+PackageVersion: 1.15
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: to their code."
+	inceptionYear}-{currentYear} {organizationName}. All Rights Reserved.<br
+PackageDownloadLocation: https://repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/commons-codec/commons-codec@1.15
+PackageChecksum: MD5: b6ef43143d942ab5ea819af24556dcd8
+PackageChecksum: SHA1: 4537e244508010df68ecbd4a6e1bc795a193ff85
+PackageChecksum: SHA256: 559e2039b2deaa1ea35f619c40cbb29eaf2b3197a95cb2b9559f158a03cc5dad
+
+
+PackageName: Apache Commons IO
+SPDXID: SPDXRef-mvn-commons-io-commons-io-2.7
+PackageVersion: 2.7
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: NONE
+PackageDownloadLocation: https://repo1.maven.org/maven2/commons-io/commons-io/2.7/commons-io-2.7-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/commons-io/commons-io@2.7
+PackageChecksum: MD5: df63a8d50c5a335ad7b3a5f3ff160b4d
+PackageChecksum: SHA1: 73ab5f8cf319b945d7d946cc98a992f1f7f8e6ac
+PackageChecksum: SHA256: ef658e4cbec247c3be882e1c4a938736a266479edf19ac2104f0f5795979d4ca
+
+
+PackageName: Apache Commons Logging
+SPDXID: SPDXRef-mvn-commons-logging-commons-logging-1.2
+PackageVersion: 1.2
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: NONE
+PackageDownloadLocation: https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/commons-logging/commons-logging@1.2
+PackageChecksum: MD5: 3b535b4efce357ccf8fa7a1ce6dd9c33
+PackageChecksum: SHA1: f6d1e2e71619a941dd6f93574cd697477583b5c5
+PackageChecksum: SHA256: 3f74fa1badea70872280098c35d22f8334ab687077954c0331750e4b9e449bc7
+
+
+PackageName: Apache HttpClient
+SPDXID: SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13
+PackageVersion: 4.5.13
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: NONE
+PackageDownloadLocation: https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.httpcomponents/httpclient@4.5.13
+PackageChecksum: MD5: b1846aaf4ef8fabfb0f4045ffa3116ff
+PackageChecksum: SHA1: a769453ba4be44c7f7a58bfc993d098fd479c1f9
+PackageChecksum: SHA256: 7e9fff454da3dfdcf23c6937feaeff2f5133e4a3df1ce8442fe902cb2d0756dc
+
+
+PackageName: Apache HttpCore
+SPDXID: SPDXRef-mvn-org.apache.httpcomponents-httpcore-4.4.13
+PackageVersion: 4.4.13
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: NONE
+PackageDownloadLocation: https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.httpcomponents/httpcore@4.4.13
+PackageChecksum: MD5: b10dd592b9bfe38be7dc15ca10aa7125
+PackageChecksum: SHA1: cc22074ddb52d2c263c9df798fd2f370b218ba51
+PackageChecksum: SHA256: f9896f28b0790842a4fc18914cf890a9414f8ad926e630f21b36fcb0094541b7
+
+
+PackageName: Apache Log4j API
+SPDXID: SPDXRef-mvn-org.apache.logging.log4j-log4j-api-2.14.0
+PackageVersion: 2.14.0
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText:  inceptionYear}-{currentYear} {organizationName}. All Rights Reserved.<br
+PackageLicenseInfoFromFiles: Apache-2.0 MIT
+PackageDownloadLocation: https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.logging.log4j/log4j-api@2.14.0
+PackageChecksum: MD5: c64072c6638da827dde94ee2414a1cc3
+PackageChecksum: SHA1: 8e850bd5a9a5deb437dc6606c746fad3be1fdb71
+PackageChecksum: SHA256: be430eb16412f0424337adb96a4abbb80385b6fb5bb0c106452119af150935da
+
+
+PackageName: Apache Log4j Core
+SPDXID: SPDXRef-mvn-org.apache.logging.log4j-log4j-core-2.14.0
+PackageVersion: 2.14.0
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 1999-2005 The Apache Software Foundation
+PackageLicenseInfoFromFiles: Apache-2.0 mit-old-style-no-advert Apache-2.0 CDDL-1.0 ietf-trust MIT MIT
+PackageDownloadLocation: https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/org.apache.logging.log4j/log4j-core@2.14.0
+PackageChecksum: MD5: de94bdea6c86902c714ea08e27883417
+PackageChecksum: SHA1: 9e91dec8014e0f528dff243756052d844ce2b9cc
+PackageChecksum: SHA256: 38a3e9e8bbb9f4403ae748badeb15f8ae9d3f6e58f1037a1a1a4a4973992e201
+
+
+PackageName: Jackson-annotations
+SPDXID: SPDXRef-mvn-com.fasterxml.jackson.core-jackson-annotations-2.11.3
+PackageVersion: 2.11.3
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: NONE
+PackageDownloadLocation: https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.11.3
+PackageChecksum: MD5: 82467a6ffadc84b697fae0829f21f414
+PackageChecksum: SHA1: 77739075437b59be79c5dc669794e1f1d1977d67
+PackageChecksum: SHA256: 12e5f848cbb979c81311cbf75432f79ccaf51bb24194508b53da7cf2052c276e
+
+
+PackageName: Jackson-core
+SPDXID: SPDXRef-mvn-com.fasterxml.jackson.core-jackson-core-2.11.3
+PackageVersion: 2.11.3
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2013 FasterXML.com
+PackageDownloadLocation: https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.fasterxml.jackson.core/jackson-core@2.11.3
+PackageChecksum: MD5: 01844ee1e21cdb225e2069b0deaf4332
+PackageChecksum: SHA1: c69137bb2b18e59af928f19d3bed16b655356573
+PackageChecksum: SHA256: e1c66506cad37adf527fe6b70acaa6b191516ba6f19eb054608e1e38a68ec957
+
+
+PackageName: jackson-databind
+SPDXID: SPDXRef-mvn-com.fasterxml.jackson.core-jackson-databind-2.11.3
+PackageVersion: 2.11.3
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: NONE
+PackageDownloadLocation: https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.11.3
+PackageChecksum: MD5: 90e53a52040508802a2dbcd2413d739e
+PackageChecksum: SHA1: 66356adf718013eff3367e8ba1f3644282770d43
+PackageChecksum: SHA256: 2fce4489ea342cc88338329e2148ede44e71114755e85bb2d704671c72b7a5d3
+
+
+PackageName: Jackson datatype: JSR310
+SPDXID: SPDXRef-mvn-com.fasterxml.jackson.datatype-jackson-datatype-jsr310-2.11.3
+PackageVersion: 2.11.3
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2013 FasterXML.com
+PackageDownloadLocation: https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.3/jackson-datatype-jsr310-2.11.3-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.11.3
+PackageChecksum: MD5: e527f7e07f65afe63e826cc34f855f86
+PackageChecksum: SHA1: dbbf083e1df9eb14e063acad77d2f31136ce236c
+PackageChecksum: SHA256: 9ff74042f88bcacdd90f198e08933f73f63230f06cae1149c428ffcd8266ad40
+
+
+PackageName: JavaBeans Activation Framework API jar
+SPDXID: SPDXRef-mvn-javax.activation-javax.activation-api-1.2.0
+PackageVersion: 1.2.0
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: GPL-2.0-with-classpath-exception OR CDDL-1.0
+PackageCopyrightText: 1989, 1991 Free Software Foundation, Inc.
+	1989, 1991 Free Software Foundation, Inc. 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+	1997-2016 Oracle and/or its affiliates. All rights reserved.
+	1989, 1991 Free Software Foundation, Inc.
+	 the software, and
+	 interest in the
+PackageLicenseInfoFromFiles: Apache-2.0 CDDL-1.1 GPL-2.0-only
+PackageDownloadLocation: https://repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/javax.activation/javax.activation-api@1.2.0
+PackageChecksum: MD5: 99adbacf8c363a8188c8a91ce58b7f50
+PackageChecksum: SHA1: f3742a43dd9b468f523ad7a8d01c8da909b3757d
+PackageChecksum: SHA256: 8bc190019bc7f20de72b92a78662dc170145b2d1d65ff1b74487b23350207bcc
+
+
+PackageName: jaxb-api
+SPDXID: SPDXRef-mvn-javax.xml.bind-jaxb-api-2.3.1
+PackageVersion: 2.3.1
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: GPL-2.0-with-classpath-exception OR CDDL-1.0
+PackageCopyrightText: 1989, 1991 Free Software Foundation, Inc. 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+	2017-2018 Oracle and/or its affiliates. All rights reserved.
+	 the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+	 
+	 interest in the program `Gnomovision' (which makes passes at compilers) written by James Hacker.
+PackageLicenseInfoFromFiles: GPL-1.0-only Apache-2.0 CDDL-1.1 GPL-2.0-only
+PackageDownloadLocation: https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/javax.xml.bind/jaxb-api@2.3.1
+PackageChecksum: MD5: c95f8384a95360e3df63472dd78c7494
+PackageChecksum: SHA1: b64a832136a7c46b0b2e8f0369f16bd1f451feb7
+PackageChecksum: SHA256: 969feb9f3af643ddc7a2ab7c9874e821941689ab8083c3c860d06fd8a2e1de95
+
+
+PackageName: JJWT :: API
+SPDXID: SPDXRef-mvn-io.jsonwebtoken-jjwt-api-0.11.2
+PackageVersion: 0.11.2
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2018 JWTK
+PackageDownloadLocation: https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-api/0.11.2/jjwt-api-0.11.2-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.jsonwebtoken/jjwt-api@0.11.2
+PackageChecksum: MD5: 94812893c009dee5b7bddfd668241a7a
+PackageChecksum: SHA1: eb0674c73ef60ce6920941e09586ff9d4c1cde79
+PackageChecksum: SHA256: df4f33cd7fb11a0fedf7e3c9187ec7e029168001754761962080294a54d13e04
+
+
+PackageName: JJWT :: Extensions :: Jackson
+SPDXID: SPDXRef-mvn-io.jsonwebtoken-jjwt-jackson-0.11.2
+PackageVersion: 0.11.2
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2018 JWTK
+PackageDownloadLocation: https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-jackson/0.11.2/jjwt-jackson-0.11.2-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.jsonwebtoken/jjwt-jackson@0.11.2
+PackageChecksum: MD5: c24f8941e06f8d34ad4d6601b14a3511
+PackageChecksum: SHA1: 43d8999c7d70451f302e8397c99f5f9847412b6b
+PackageChecksum: SHA256: 38e084174803581365f4bed1207e2b62e2cf5f86a42bca9dc920df613af6c678
+
+
+PackageName: JJWT :: Impl
+SPDXID: SPDXRef-mvn-io.jsonwebtoken-jjwt-impl-0.11.2
+PackageVersion: 0.11.2
+FilesAnalyzed: true
+PackageOriginator: Organization: Maven
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2018 JWTK
+PackageDownloadLocation: https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.2/jjwt-impl-0.11.2-sources.jar
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:maven/io.jsonwebtoken/jjwt-impl@0.11.2
+PackageChecksum: MD5: c8f164b1bc630baa1e9d855312dfe2e4
+PackageChecksum: SHA1: c17bad862d8bdb81c07c378453daf290c81a929f
+PackageChecksum: SHA256: a635f3e26abfe38b92d51e57b8fe44f38766154817694f19492067a04f4466aa
+
+
+
+#### Relationships
+
+SPDXRef-DOCUMENT DESCRIBES SPDXRef-custom-41104-compiledMaven-2023-11-10T14-09-53Z
+SPDXRef-custom-41104-compiledMaven-2023-11-10T14-09-53Z DEPENDS_ON SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDENCY_OF SPDXRef-custom-41104-compiledMaven-2023-11-10T14-09-53Z
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-commons-codec-commons-codec-1.15
+SPDXRef-mvn-commons-codec-commons-codec-1.15 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-commons-io-commons-io-2.7
+SPDXRef-mvn-commons-io-commons-io-2.7 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13
+SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-org.apache.httpcomponents-httpcore-4.4.13
+SPDXRef-mvn-org.apache.httpcomponents-httpcore-4.4.13 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-org.apache.logging.log4j-log4j-api-2.14.0
+SPDXRef-mvn-org.apache.logging.log4j-log4j-api-2.14.0 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-org.apache.logging.log4j-log4j-core-2.14.0
+SPDXRef-mvn-org.apache.logging.log4j-log4j-core-2.14.0 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-com.fasterxml.jackson.core-jackson-annotations-2.11.3
+SPDXRef-mvn-com.fasterxml.jackson.core-jackson-annotations-2.11.3 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-com.fasterxml.jackson.core-jackson-core-2.11.3
+SPDXRef-mvn-com.fasterxml.jackson.core-jackson-core-2.11.3 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-com.fasterxml.jackson.core-jackson-databind-2.11.3
+SPDXRef-mvn-com.fasterxml.jackson.core-jackson-databind-2.11.3 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-com.fasterxml.jackson.datatype-jackson-datatype-jsr310-2.11.3
+SPDXRef-mvn-com.fasterxml.jackson.datatype-jackson-datatype-jsr310-2.11.3 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-javax.xml.bind-jaxb-api-2.3.1
+SPDXRef-mvn-javax.xml.bind-jaxb-api-2.3.1 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-io.jsonwebtoken-jjwt-api-0.11.2
+SPDXRef-mvn-io.jsonwebtoken-jjwt-api-0.11.2 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-io.jsonwebtoken-jjwt-jackson-0.11.2
+SPDXRef-mvn-io.jsonwebtoken-jjwt-jackson-0.11.2 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1 DEPENDS_ON SPDXRef-mvn-io.jsonwebtoken-jjwt-impl-0.11.2
+SPDXRef-mvn-io.jsonwebtoken-jjwt-impl-0.11.2 DEPENDENCY_OF SPDXRef-mvn-com.twilio.sdk-twilio-8.6.1
+SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13 DEPENDS_ON SPDXRef-mvn-commons-logging-commons-logging-1.2
+SPDXRef-mvn-commons-logging-commons-logging-1.2 DEPENDENCY_OF SPDXRef-mvn-org.apache.httpcomponents-httpclient-4.5.13
+SPDXRef-mvn-javax.xml.bind-jaxb-api-2.3.1 DEPENDS_ON SPDXRef-mvn-javax.activation-javax.activation-api-1.2.0
+SPDXRef-mvn-javax.activation-javax.activation-api-1.2.0 DEPENDENCY_OF SPDXRef-mvn-javax.xml.bind-jaxb-api-2.3.1
+
+
+
+<!--FOSSA: Do not touch content below. -->
+
+<!--FOSSA: ==depsig=2039378558b1b6d9740d67fa702bd6e80a8a974e426826ff2bbab403f03b700e== -->
+
+

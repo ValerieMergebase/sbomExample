@@ -1,0 +1,47 @@
+plugins {
+    id 'war'
+    id 'org.cyclonedx.bom' version '1.8.1'
+    id 'java'
+}
+
+group = 'com.mergebase.samples'
+version = '06-November-2023'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.twilio.sdk:twilio:8.6.1' // Twilio dependency for main
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+// Plugin configuration for CycloneDX
+cyclonedxBom {
+    // includeConfigs is the list of configuration names to include when generating the BOM (leave empty to include every configuration)
+    includeConfigs = ["runtimeClasspath"]
+    // skipConfigs is a list of configuration names to exclude when generating the BOM
+    skipConfigs = ["compileClasspath", "testCompileClasspath"]
+    // Specified the type of project being built. Defaults to 'library'
+    projectType = "application"
+    // Specified the version of the CycloneDX specification to use. Defaults to '1.5'
+    schemaVersion = "1.5"
+    // Boms destination directory. Defaults to 'build/reports'
+    destination = file("build/plugin/reports")
+    // The file name for the generated BOMs (before the file format suffix). Defaults to 'bom'
+    outputName = "plugin_bom"
+    // The file format generated, can be xml, json or all for generating both. Defaults to 'all'
+    outputFormat = "all"
+    // Exclude BOM Serial Number. Defaults to 'true'
+    includeBomSerialNumber = false
+}
